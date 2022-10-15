@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/thomasdesr/go-shorten/storage"
+	"github.com/ckw017/go-shorten/storage"
 )
 
 func setupInmemStorage(t testing.TB) storage.NamedStorage {

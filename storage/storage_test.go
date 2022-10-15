@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/thomasdesr/go-shorten/storage"
-	"github.com/thomasdesr/go-shorten/storage/migrations"
+	"github.com/ckw017/go-shorten/storage"
+	"github.com/ckw017/go-shorten/storage/migrations"
 )
 
 func randString(length int) string {

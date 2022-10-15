@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/pkg/errors"
-	"github.com/thomasdesr/go-shorten/storage"
+	"github.com/ckw017/go-shorten/storage"
 )
 
 // MultiStorage is a storage.NamedStorage that will allow you to interact with multiple underlying storage.NamedStorages.

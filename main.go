@@ -9,8 +9,8 @@ import (
 	"github.com/jessevdk/go-flags"
 	"github.com/julienschmidt/httprouter"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/thomasdesr/go-shorten/handlers"
-	"github.com/thomasdesr/go-shorten/storage"
+	"github.com/ckw017/go-shorten/handlers"
+	"github.com/ckw017/go-shorten/storage"
 )
 
 var opts Options
@@ -61,7 +61,7 @@ func main() {
 	n.UseHandler(r)
 
 	go func() {
-		log.Printf("Starting prometheus HTTP Listner on %s", net.JoinHostPort(opts.BindHost, "8081"))
+		log.Printf("Starting prometheus HTTP Listener on %s", net.JoinHostPort(opts.BindHost, "8081"))
 		err := http.ListenAndServe(net.JoinHostPort(opts.BindHost, "8081"), promhttp.Handler())
 		if err != nil {
 			log.Println(err)

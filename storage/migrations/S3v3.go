@@ -3,7 +3,7 @@ package migrations
 import (
 	"context"
 
-	"github.com/thomasdesr/go-shorten/storage"
+	"github.com/ckw017/go-shorten/storage"
 )
 
 // S3v2MigrationStore helps the migration from the v2 version of the store to

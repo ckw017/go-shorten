@@ -1,4 +1,4 @@
-module github.com/thomasdesr/go-shorten
+module github.com/ckw017/go-shorten
 
 go 1.14
 

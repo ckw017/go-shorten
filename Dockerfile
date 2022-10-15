@@ -2,7 +2,7 @@ FROM golang
 
 EXPOSE 8080
 
-ARG package=github.com/thomasdesr/go-shorten
+ARG package=github.com/ckw017/go-shorten
 # ARG package=app
 # ${PWD#$GOPATH/src/}
 
@@ -10,7 +10,7 @@ RUN mkdir -p /go/src/${package}
 WORKDIR /go/src/${package}
 
 COPY . /go/src/${package}
-RUN go-wrapper download
-RUN go-wrapper install
+RUN go get -t -v ./...
+RUN go install .
 
-CMD ["go-wrapper", "run"]
+CMD ["go-shorten"]

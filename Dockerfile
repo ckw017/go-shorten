@@ -13,4 +13,4 @@ COPY . /go/src/${package}
 RUN go get -t -v ./...
 RUN go install .
 
-CMD ["go-shorten"]
+ENTRYPOINT ["go-shorten"]

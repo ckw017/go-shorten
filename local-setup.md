@@ -2,7 +2,7 @@
 
 ### Why?
 
-As of the time of writing I'm approximately 25 minutes into having local go links working, so I'm not too sure yet. At least so far it seems good for where you need the path, but browser autocomplete only works up to domain (Github, for example). Also handy for links to documentation/blogs with obscure domains. I can also see this being handy for saving and naming links as you find them, and rediscovering them by browsing `~/.gosearch` (although now that I think of it this just sounds like a roundabout way to bookmark stuff).
+As of the time of writing I'm approximately 25 minutes into having local go links working, so I'm not too sure yet. At least so far it seems good for where you need the path part of a URL, but browser autocomplete only works up to domain (Github, for example). Also handy for links to documentation/blogs with obscure domains. I can also see this being handy for saving and naming links as you find them, and rediscovering them by browsing `~/.gosearch` (although now that I think of it this just sounds like a roundabout way to bookmark stuff).
 
 ### Prerequisites
 

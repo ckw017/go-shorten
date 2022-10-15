@@ -4,7 +4,7 @@
 
 ## go-shorten: URL Shortener Service
 
-This service stores and serves URL redirects. I stole this from [Thomas](https://github.com/ckw017/go-shorten) who stole the idea from when he worked at LinkedIn who apparently stole it from Google. The rest of this README is from his repo.
+This service stores and serves URL redirects. I stole this from [Thomas](https://github.com/ckw017/go-shorten) who stole the idea from when he worked at LinkedIn who apparently stole it from Google.
 
 The rest of this README is from the original repo. I added [local-setup.md](local-setup.md) for instructions on setting up go links on a local machine.
 ### Why?

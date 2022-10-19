@@ -52,7 +52,8 @@ Restart=always
 RestartSec=1
 User=chriskw
 ExecStartPre=-docker stop go-shorten-container
-ExecStart=docker run --rm -v /home/<this-you>/.gosearch/:/var/gosearch -p 80:8080 go-shorten --root-path=/var/gosearch --storage-type=filesystem
+ExecStart=docker run --rm -v /home/<this-you>/.gosearch/:/var/gosearch -p 80:8080 --name go-shorten-container go-shorten --root-path=/var/gosearch --storage-type=filesystem
+ExecStop=-docker stop go-shorten-container
 
 [Install]
 WantedBy=multi-user.target
